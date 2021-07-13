@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/* Reset */
+* {
+    color: #333;  /* 기본텍스트 색상 */
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;  /* 배경색 */
+}
+
+a:link {      /* 슈도(Pseudo, 의사, 짝퉁) 클래스 선택자*/
+    color: #666;
+}
+a:visited {
+    color: #666;
+}
+a:hover {
+    color: #444;
+}
+a:active {
+    color: #444;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+}
+
+.flexContainer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+/* Reset */

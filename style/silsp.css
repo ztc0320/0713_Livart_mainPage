@@ -41,30 +41,50 @@ nav#gnb #mainMenu span {
 /* main#main */
 main#main {
   padding: 6px;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 
   justify-content: space-between;
 }
 
 #main > div {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 
 #main > div#goodsList {
   width: 690px;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   justify-content: space-between;
   flex-wrap: wrap;
 }
 #main > #goodsList > table.goodsInfo {
   width: 220px;
-  border: 1px solid #000;
+  text-align: center;
+  /* border: 1px solid #000; */
   margin-bottom: 20px;
 
   border-collapse: collapse;
 }
 
 #main > #goodsList > table.goodsInfo td {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
+}
+#main #goodsList tr.goodsName td {
+  font-size: 14px;
+  line-height: 17px;
+}
+#main #goodsList tr.goodsName span {
+  color: #a57c50;
+  font-weight: bold;
+}
+
+#main #goodsList tr.goodsPrice span {
+  font-size: 20px;
+  color:#138e85;
+  font-weight: bold;
+}
+#main > #goodsList tr.goodsPrice > td::after {
+  content: "원";
+  color:#138e85;
+  font-weight: bold;
 }
 /* main#main */

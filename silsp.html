@@ -37,7 +37,26 @@
 
       <main id="main" class="flexContainer">
         <div id="presentGoods">
-          <img src="images/list_01_390x600.jpg" alt="대표 상품 이미지" />
+          <table class="goodsInfo">
+            <tbody>
+              <tr class="goodsImg">
+                <td>
+                  <img
+                    src="images/list_01_390x600.jpg"
+                    alt="대표 상품 이미지"
+                  />
+                </td>
+              </tr>
+              <tr class="goodsName">
+                <td></td>
+              </tr>
+              <tr class="goodsPrice" style="display: none">
+                <td>
+                  <span>1247000</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <!-- div#presentGoods -->
 
@@ -55,7 +74,7 @@
               </tr>
               <tr class="goodsName">
                 <td>
-                  <span>[리바트온라인]</span>
+                  <span class>[리바트온라인]</span>
                   솔브 4일 헤드틸팅 <br />
                   리클라이터 소파(양면형, 3색/택1)
                 </td>
@@ -203,6 +222,17 @@
         <!-- div#goodsList -->
       </main>
       <!-- main#main -->
+    </div>
+
+    <div id="layerBG">
+      <div id="closeBtn">&times;</div>
+      <div id="layerPopup">
+        <div id="popImg">
+          <img src="" alt="" />
+        </div>
+        <div id="popGoodsName"></div>
+        <div id="popGoodsPrice"></div>
+      </div>
     </div>
   </body>
 </html>
